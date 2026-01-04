@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="tr" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Masaüstü Uygulamalar | Arda Çekiç</title>
+  <meta name="description" content="Windows, macOS ve Linux için güvenli, performanslı ve ölçeklenebilir masaüstü uygulamalar: native deneyim, donanım entegrasyonları, otomatik güncelleme ve kurumsal dağıtım." />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+
+  <link rel="canonical" href="https://ardcek.com/masaustu-uygulama/" />
+  <link rel="alternate" hreflang="tr-TR" href="https://ardcek.com/masaustu-uygulama/" />
+  <link rel="alternate" hreflang="x-default" href="https://ardcek.com/masaustu-uygulama/" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="tr_TR" />
+  <meta property="og:site_name" content="Arda Çekiç" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ardcek.com/masaustu-uygulama/" />
+  <meta property="og:title" content="Masaüstü Uygulamalar | Arda Çekiç" />
+  <meta property="og:description" content="Windows, macOS ve Linux için güvenli, performanslı ve ölçeklenebilir masaüstü yazılımlar." />
+  <meta property="og:image" content="https://ardcek.com/images/profile.jpg" />
+  <meta property="og:image:secure_url" content="https://ardcek.com/images/profile.jpg" />
+  <meta property="og:image:alt" content="Arda Çekiç – Masaüstü Uygulamalar" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://ardcek.com/masaustu-uygulama/" />
+  <meta name="twitter:title" content="Masaüstü Uygulamalar | Arda Çekiç" />
+  <meta name="twitter:description" content="Native deneyim, güvenlik ve kurumsal dağıtım odaklı masaüstü çözümler." />
+  <meta name="twitter:image" content="https://ardcek.com/images/profile.jpg" />
+  <meta name="twitter:image:alt" content="Arda Çekiç — Masaüstü Uygulamalar" />
+
+  <!-- Icons & PWA -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="color-scheme" content="light dark">
+  <meta name="application-name" content="Arda Çekiç">
+  <meta name="apple-mobile-web-app-title" content="Arda Çekiç">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+  <!-- Performans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <!-- PROD: purge edilmiş tek CSS önerilir -->
+  <!-- <link rel="stylesheet" href="/assets/css/app.css" /> -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://ardcek.com/#website",
+        "url": "https://ardcek.com/",
+        "name": "Arda Çekiç | Dijital Çözümler",
+        "inLanguage": "tr-TR"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://ardcek.com/masaustu-uygulama/#webpage",
+        "url": "https://ardcek.com/masaustu-uygulama/",
+        "name": "Masaüstü Uygulamalar | Arda Çekiç",
+        "description": "Windows, macOS ve Linux için güvenli, performanslı ve ölçeklenebilir masaüstü uygulamalar: native UX, donanım entegrasyonu, otomatik güncelleme ve kurumsal dağıtım.",
+        "inLanguage": "tr-TR",
+        "isPartOf": { "@id": "https://ardcek.com/#website" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://ardcek.com/images/profile.jpg",
+          "width": 1200,
+          "height": 630
+        }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://ardcek.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Masaüstü Uygulamalar", "item": "https://ardcek.com/masaustu-uygulama/" }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root{ --ink:#e5e7eb; --muted:#9ca3af; --line:#1f2937; }
+    html,body{ height:100%; }
+    body{ font-family:"Inter",sans-serif; background:#000; color:var(--ink); overflow:hidden; }
+    header{ background:rgba(10,10,10,.5); backdrop-filter:blur(8px); border-bottom:1px solid rgba(255,255,255,.08); }
+
+    .scroll-container{ height:100%; width:100%; overflow:hidden; position:relative; }
+    .scroll-section{ height:100%; width:100%; position:absolute; inset:0; display:flex; align-items:center; justify-content:center; padding:1rem; transition: transform 1.1s cubic-bezier(.82,0,.18,1); transform:translateY(100%); }
+    .scroll-section.active{ transform:translateY(0); }
+    .scroll-section.previous{ transform:translateY(-100%); }
+
+    .animated{ opacity:0; transform:translateY(24px); transition:opacity .7s cubic-bezier(.16,1,.3,1), transform .7s cubic-bezier(.16,1,.3,1); }
+    .active .animated{ opacity:1; transform:translateY(0); }
+    .d1{ transition-delay:.1s } .d2{ transition-delay:.2s } .d3{ transition-delay:.3s } .d4{ transition-delay:.4s } .d5{ transition-delay:.5s }
+
+    .h1{ font-size:clamp(2rem,6vw,4.25rem); line-height:1.05; letter-spacing:-.018em; }
+    .h2{ font-size:clamp(1.8rem,4.5vw,3rem); line-height:1.1; letter-spacing:-.01em; }
+    .kicker{ letter-spacing:.14em; text-transform:uppercase; color:var(--muted); font-size:.75rem; }
+
+    .hero-visual { position:relative; border-radius:1rem; border:1px solid var(--line); height:36vh; min-height:220px; max-height:480px; overflow:hidden; background-size:cover; background-position:center; transition: background-image .4s ease; }
+    @media(min-width:641px){ .hero-visual{ height:42vh; min-height:280px; } }
+    @media(min-width:1025px){ .hero-visual{ height:45vh; min-height:320px; } }
+
+    .badge{ border:1px solid var(--line); background:rgba(31,41,55,.55); border-radius:9999px; padding:.45rem .85rem; font-size:.8rem; }
+    .btn{ display:inline-block; font-weight:700; border-radius:9999px; padding:.8rem 1.4rem; font-size:.9rem; }
+    .btn-primary{ background:#fff; color:#000; } .btn-primary:hover{ background:#d1d5db; }
+    .btn-ghost{ border:1px solid var(--line); color:var(--ink); } .btn-ghost:hover{ border-color:#9ca3af; }
+
+    .meter{ height:8px; background:#0b0b0b; border-radius:9999px; border:1px solid var(--line); overflow:hidden; }
+    .meter>div{ height:100%; background:#fff; }
+
+    .header-logo{ font-size:1.5rem; } .header-logo-mobile{ font-size:24px; } .header-logo-tablet{ font-size:1.75rem; }
+    .nav-link{ font-size:.875rem; padding:.5rem .75rem; }
+    .nav-link-mobile{ font-size:.75rem; padding:.375rem .5rem; }
+    .nav-link-tablet{ font-size:.8rem; padding:.4375rem .625rem; }
+    .mobile-menu-link{ font-size:1.5rem; padding:1rem 0; }
+    .mobile-menu-link-mobile{ font-size:1.25rem; padding:.75rem 0; }
+    .mobile-menu-link-tablet{ font-size:1.75rem; padding:1.25rem 0; }
+    #mobile-menu{ transition:opacity .3s ease-in-out; backdrop-filter:blur(10px); }
+
+    /* ——— Dots nav ——— */
+    .dots-wrap{ position:fixed; right:1rem; top:50%; transform:translateY(-50%); display:flex; flex-direction:column; gap:.5rem; z-index:30; }
+    .dot{ width:.55rem; height:.55rem; border-radius:9999px; border:1px solid var(--line); background:#0b0b0b; opacity:.7; cursor:pointer; transition:all .2s; }
+    .dot.active{ background:#fff; opacity:1; }
+    .dot:hover{ opacity:1; border-color:#9ca3af; }
+
+    /* ——— Prev/Next ——— */
+    .arrows-wrap{ position:fixed; bottom:1.25rem; left:50%; transform:translateX(-50%); display:flex; gap:.5rem; z-index:30;}
+    .arrow-btn{ border:1px solid var(--line); background:rgba(17,24,39,.6); border-radius:.75rem; padding:.6rem .9rem; color:#d1d5db; cursor:pointer; transition:all .2s; }
+    .arrow-btn:hover{ border-color:#9ca3af; background:rgba(17,24,39,.8); }
+    .arrow-btn:disabled{ opacity:.4; cursor:not-allowed; }
+
+    @media(max-width:640px){
+      .scroll-section{ padding-top:5rem; padding-bottom:1rem; min-height:calc(100vh - 5rem); }
+      header{ z-index:40 } #mobile-menu{ z-index:50 }
+      .dots-wrap{ right:.5rem; }
+    }
+  </style>
+</head>
+<body class="antialiased">
+
+  <!-- HEADER -->
+  <header class="py-4 px-4 sm:px-8 lg:px-16 fixed top-0 w-full z-40">
+    <nav class="flex justify-between items-center">
+      <div>
+        <h2 class="header-logo header-logo-mobile sm:header-logo-tablet lg:header-logo font-black tracking-tighter" style="cursor:pointer" onclick="window.location.href='/'">ardcek</h2>
+      </div>
+      <div class="hidden md:flex items-center space-x-4 sm:space-x-8 text-sm font-medium">
+        <a href="/" class="nav-link nav-link-mobile sm:nav-link-tablet lg:nav-link text-gray-300 hover:text-white transition-colors">Anasayfa</a>
+        <a href="/#hizmetler" class="nav-link nav-link-mobile sm:nav-link-tablet lg:nav-link text-gray-300 hover:text-white transition-colors">Hizmetler</a>
+        <a href="/hakkimda/" class="nav-link nav-link-mobile sm:nav-link-tablet lg:nav-link text-gray-300 hover:text-white transition-colors">Hakkımda</a>
+        <a href="/referanslar/" class="nav-link nav-link-mobile sm:nav-link-tablet lg:nav-link text-gray-300 hover:text-white transition-colors">Referanslar</a>
+        <a href="/#iletisim" class="nav-link nav-link-mobile sm:nav-link-tablet lg:nav-link text-gray-300 hover:text-white transition-colors">İletişim</a>
+      </div>
+      <div class="md:hidden">
+        <button id="menu-btn" type="button" class="z-40 p-2" aria-label="Menüyü aç">
+          <svg id="menu-open-icon" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"/>
+          </svg>
+          <svg id="menu-close-icon" class="h-6 w-6 text-white hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Mobil Menü -->
+  <div id="mobile-menu" class="hidden fixed inset-0 bg-black bg-opacity-90 z-50 flex flex-col items-center justify-center space-y-8">
+    <button onclick="document.getElementById('mobile-menu').classList.add('hidden'); document.getElementById('menu-open-icon').classList.remove('hidden'); document.getElementById('menu-close-icon').classList.add('hidden');" 
+            aria-label="Menüyü Kapat" 
+            class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors w-12 h-12 flex items-center justify-center">
+      <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+      </svg>
+    </button>
+    <a href="/" class="mobile-menu-link mobile-menu-link-mobile sm:mobile-menu-link-tablet lg:mobile-menu-link font-bold text-white">Anasayfa</a>
+    <a href="/#hizmetler" class="mobile-menu-link mobile-menu-link-mobile sm:mobile-menu-link-tablet lg:mobile-menu-link font-bold text-white">Hizmetler</a>
+    <a href="/hakkimda/" class="mobile-menu-link mobile-menu-link-mobile sm:mobile-menu-link-tablet lg:mobile-menu-link font-bold text-white">Hakkımda</a>
+    <a href="/referanslar/" class="mobile-menu-link mobile-menu-link-mobile sm:mobile-menu-link-tablet lg:mobile-menu-link font-bold text-white">Referanslar</a>
+    <a href="/#iletisim" class="mobile-menu-link mobile-menu-link-mobile sm:mobile-menu-link-tablet lg:mobile-menu-link font-bold text-white">İletişim</a>
+  </div>
+
+  <main class="scroll-container">
+    <!-- S1 — HERO -->
+    <section class="scroll-section active" aria-label="Masaüstü" data-title="Giriş">
+      <div class="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center px-4">
+        <div class="animated d3 order-1 lg:order-2">
+          <div id="hero-visual-dynamic" class="hero-visual" style="background-image:url('1.png'); transition: background-image 0.7s;"></div>
+          <div class="mt-4 flex gap-2 flex-wrap">
+            <span class="badge">Windows</span>
+            <span class="badge">macOS</span>
+            <span class="badge">Linux</span>
+            <span class="badge">.NET/WPF</span>
+            <span class="badge">Electron/Tauri</span>
+            <span class="badge">Qt/C++</span>
+            <span class="badge">Auto Update</span>
+          </div>
+        </div>
+        <div class="order-2 lg:order-1">
+          <p class="kicker animated">masaüstü</p>
+          <h1 class="h1 font-black tracking-tighter animated d2">Masaüstü Uygulamalar</h1>
+          <p class="mt-4 text-gray-400 leading-relaxed text-base animated d3">
+            <span id="scramble-effect"></span>
+          </p>
+          <div class="mt-7 flex items-center gap-3 animated d4">
+            <a href="/#iletisim" class="btn btn-primary">Teklif Al</a>
+            <a href="/referanslar/" class="btn btn-ghost">Referanslar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S2 — AVANTAJLAR -->
+    <section class="scroll-section" aria-label="Avantajlar" id="hizmetler" data-title="Avantajlar">
+      <div class="w-full max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto">
+          <p class="kicker animated">değer önerisi</p>
+          <h2 class="h2 font-black tracking-tighter animated d2">Native His. Yüksek Performans. Kurumsal Güvenlik.</h2>
+          <p class="animated d3 mt-3 text-gray-300">Saha gerçeklerine uygun, dağıtım ve bakım dostu mimari.</p>
+        </div>
+        <div class="grid md:grid-cols-4 gap-5 mt-9">
+          <div class="animated d2 p-5 rounded-2xl border border-[#1f2937] bg-[rgba(17,24,39,.6)]">
+            <h3 class="font-semibold text-xl">Performans</h3>
+            <p class="mt-2 text-gray-300">Soğuk açılış &lt; 1.5 sn, akıcı arayüz.</p>
+          </div>
+          <div class="animated d3 p-5 rounded-2xl border border-[#1f2937] bg-[rgba(17,24,39,.6)]">
+            <h3 class="font-semibold text-xl">Güvenlik</h3>
+            <p class="mt-2 text-gray-300">Kod imzalama, Apple Notarization, en az yetki.</p>
+          </div>
+          <div class="animated d4 p-5 rounded-2xl border border-[#1f2937] bg-[rgba(17,24,39,.6)]">
+            <h3 class="font-semibold text-xl">Dağıtım</h3>
+            <p class="mt-2 text-gray-300">MSIX/DMG/DEB paketleme, otomatik güncelleme.</p>
+          </div>
+          <div class="animated d5 p-5 rounded-2xl border border-[#1f2937] bg-[rgba(17,24,39,.6)]">
+            <h3 class="font-semibold text-xl">Donanım</h3>
+            <p class="mt-2 text-gray-300">USB/Seri, yazıcı, barkod, cihaz sürücüleri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S3 — SÜREÇ + METRİKLER -->
+    <section class="scroll-section" aria-label="Süreç" data-title="Süreç">
+      <div class="w-full max-w-6xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-start">
+        <div>
+          <p class="kicker animated">süreç</p>
+          <h2 class="h2 font-black tracking-tighter animated d2">Üretim Modeli</h2>
+          <ul class="animated d3 mt-6 space-y-4 text-gray-300">
+            <li><strong>Keşif:</strong> Kullanım senaryoları, çevrimdışı/online ihtiyaçlar, cihazlar.</li>
+            <li><strong>Tasarım:</strong> Yerel bileşenlerle native his; erişilebilirlik.</li>
+            <li><strong>Geliştirme:</strong> Modüler mimari, otomatik test, hata ayıklama.</li>
+            <li><strong>Dağıtım:</strong> İmzalama, paketleme, auto-update ve versiyonlama.</li>
+          </ul>
+        </div>
+        <div class="animated d3 rounded-2xl border border-[#1f2937] p-6 bg-[rgba(17,24,39,.6)]">
+          <p class="kicker">kısa metrikler</p>
+          <div class="mt-6 space-y-4">
+            <div>
+              <div class="flex justify-between text-sm text-gray-400 mb-1"><span>Crash-free Sessions</span><span>%98+</span></div>
+              <div class="meter"><div data-percent="90"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm text-gray-400 mb-1"><span>Soğuk Açılış (sn)</span><span>&lt;1.5</span></div>
+              <div class="meter"><div data-percent="88"></div></div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm text-gray-400 mb-1"><span>Güncelleme Başarı Oranı</span><span>%95+</span></div>
+              <div class="meter"><div data-percent="92"></div></div>
+            </div>
+          </div>
+          <p class="mt-5 text-sm text-gray-400">Değerler uygulama tipine ve donanım ortamına göre değişebilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- S4 — TEKNOLOJİLER -->
+    <section class="scroll-section" aria-label="Teknolojiler" data-title="Teknolojiler">
+      <div class="w-full max-w-6xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto">
+          <p class="kicker animated">teknolojiler</p>
+          <h2 class="h2 font-black tracking-tighter animated d2">Teknik Kapsam</h2>
+          <p class="animated d3 mt-3 text-gray-300">Native ve çoklu-platform yaklaşımlar, güvenli veri ve CI/CD.</p>
+        </div>
+        <div class="animated d4 rounded-2xl border border-[#1f2937] p-6 bg-[rgba(17,24,39,.6)] mt-8">
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+            <span class="badge">.NET / WPF / WinUI</span>
+            <span class="badge">Electron / Tauri</span>
+            <span class="badge">Qt / C++</span>
+            <span class="badge">Swift / AppKit</span>
+            <span class="badge">Rust / Node.js</span>
+            <span class="badge">SQLite / Realm</span>
+            <span class="badge">MSIX / MSI / DMG</span>
+            <span class="badge">Python / PySide</span>
+            <span class="badge">Squirrel / AutoUpdater</span>
+            <span class="badge">Code Signing / Notary</span>
+            <span class="badge">REST / gRPC</span>
+            <span class="badge">CI/CD</span>
+          </div>
+          <p class="mt-5 text-sm text-gray-400">Yığın, kurum politikanıza ve dağıtım stratejinize göre şekillenir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- S5 — SSS -->
+    <section class="scroll-section" aria-label="SSS" data-title="SSS">
+      <div class="w-full max-w-4xl mx-auto px-4">
+        <div class="text-center max-w-2xl mx-auto">
+          <p class="kicker animated">sss</p>
+          <h2 class="h2 font-black tracking-tighter animated d2">Sık Sorulanlar</h2>
+          <p class="animated d3 mt-3 text-gray-300">Öngörülebilir teslimat, sürdürülebilir bakım.</p>
+        </div>
+        <div class="mt-7 space-y-4">
+          <div class="animated d2 border border-[#1f2937] rounded-xl bg-[rgba(17,24,39,.6)] p-5">
+            <button class="w-full text-left flex justify-between items-center faq-q" aria-expanded="false" aria-controls="faq-1">
+              <span class="font-semibold">Platform desteği nedir?</span>
+              <svg class="w-5 h-5 text-gray-400"><path fill="currentColor" d="M12 15.5l-7-7h14l-7 7z"/></svg>
+            </button>
+            <div id="faq-1" class="faq-a mt-3 text-gray-300 hidden">Windows, macOS ve Linux için yerel ya da çoklu-platform çözümleri projeye göre seçiyoruz.</div>
+          </div>
+          <div class="animated d3 border border-[#1f2937] rounded-xl bg-[rgba(17,24,39,.6)] p-5">
+            <button class="w-full text-left flex justify-between items-center faq-q" aria-expanded="false" aria-controls="faq-2">
+              <span class="font-semibold">Güncellemeler nasıl yönetilir?</span>
+              <svg class="w-5 h-5 text-gray-400"><path fill="currentColor" d="M12 15.5l-7-7h14l-7 7z"/></svg>
+            </button>
+            <div id="faq-2" class="faq-a mt-3 text-gray-300 hidden">Otomatik güncelleme (Squirrel/autoUpdater) ve versiyonlama ile kesintisiz dağıtım kuruyoruz.</div>
+          </div>
+          <div class="animated d4 border border-[#1f2937] rounded-xl bg-[rgba(17,24,39,.6)] p-5">
+            <button class="w-full text-left flex justify-between items-center faq-q" aria-expanded="false" aria-controls="faq-3">
+              <span class="font-semibold">Güvenlik yaklaşımı nedir?</span>
+              <svg class="w-5 h-5 text-gray-400"><path fill="currentColor" d="M12 15.5l-7-7h14l-7 7z"/></svg>
+            </button>
+            <div id="faq-3" class="faq-a mt-3 text-gray-300 hidden">Kod imzalama, notarization, güvenli depolama (DPAPI/Keychain), en az yetki ve loglama standarttır.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- S6 — CTA -->
+    <section class="scroll-section" aria-label="İletişime Geç" id="iletisim" data-title="İletişim">
+      <div class="w-full max-w-4xl mx-auto text-center px-4">
+        <p class="kicker animated">birlikte geliştirelim</p>
+        <h2 class="h2 font-black tracking-tighter animated d2">Masanın gücünü ürüne dönüştürelim</h2>
+        <p class="animated d3 mt-3 text-gray-300">Kısa bir keşif görüşmesiyle başlayalım.</p>
+        <div class="animated d4 mt-7 flex items-center gap-3 justify-center">
+          <a href="/#iletisim" class="btn btn-primary">İletişime Geç</a>
+          <a href="/hakkimda/" class="btn btn-ghost">Hakkımda</a>
+        </div>
+        <footer class="animated d5 text-gray-500 mt-10">
+          <p>&copy; 2025 Mehmet Arda Çekiç. Tüm Hakları Saklıdır.</p>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dots Navigation -->
+  <div class="dots-wrap"></div>
+
+  <!-- Arrows Navigation -->
+  <div class="arrows-wrap">
+    <button id="prev-arrow" class="arrow-btn" onclick="scrollToSection(current - 1)" aria-label="Önceki bölüm">↑</button>
+    <button id="next-arrow" class="arrow-btn" onclick="scrollToSection(current + 1)" aria-label="Sonraki bölüm">↓</button>
+  </div>
+
+  <script>
+    // TextScramble + hero döngüsü
+    class TextScramble {
+      constructor(el) { this.el = el; this.chars = "!<>-_\\/[]{}—=+*^?#________"; this.update = this.update.bind(this); }
+      setText(newText) {
+        const oldText = this.el.innerText, length = Math.max(oldText.length, newText.length);
+        const promise = new Promise((resolve)=> this.resolve = resolve); this.queue = [];
+        for (let i=0;i<length;i++){ const from=oldText[i]||"", to=newText[i]||"", start=Math.floor(Math.random()*40), end=start+Math.floor(Math.random()*40); this.queue.push({from,to,start,end}); }
+        cancelAnimationFrame(this.frameRequest); this.frame=0; this.update(); return promise;
+      }
+      update() {
+        let output="", complete=0;
+        for (let i=0,n=this.queue.length;i<n;i++){
+          let {from,to,start,end,char}=this.queue[i];
+          if (this.frame>=end){ complete++; output+=to; }
+          else if (this.frame>=start){ if(!char||Math.random()<0.28){ char=this.randomChar(); this.queue[i].char=char; } output+=`<span class="scramble-char">${char}</span>`; }
+          else { output+=from; }
+        }
+        this.el.innerHTML=output;
+        if (complete===this.queue.length) this.resolve(); else { this.frameRequest=requestAnimationFrame(this.update); this.frame++; }
+      }
+      randomChar(){ return this.chars[Math.floor(Math.random()*this.chars.length)]; }
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const el = document.getElementById("scramble-effect");
+      const heroVisual = document.getElementById("hero-visual-dynamic");
+
+      const heroData = [
+        { img: '1.png', text: 'Windows, macOS ve Linux’ta <span class="font-semibold">native deneyim</span> ve yüksek performans sağlarım.' },
+        { img: '2.png', text: 'Kurumsal dağıtım: <span class="font-semibold">MSIX/DMG</span>, imzalama ve otomatik güncelleme.' },
+        { img: '3.png', text: 'Donanım entegrasyonları: <span class="font-semibold">USB/seri, yazıcı, barkod</span> ve daha fazlası.' },
+        { img: '4.png', text: 'Güvenli veri: <span class="font-semibold">Keychain/DPAPI</span>, en az yetki ve loglama.' },
+        { img: '5.png', text: 'CI/CD ile <span class="font-semibold">düzenli yayın</span>, telemetri ile sürekli iyileştirme.' }
+      ];
+
+      const fx = new TextScramble(el); let heroIndex = 0;
+  async function updateHero(){ const {text}=heroData[heroIndex]; await fx.setText(text); heroIndex = (heroIndex + 1) % heroData.length; }
+  heroVisual.style.backgroundImage = "url('1.png')";
+  (async function heroLoop(){ while(true){ await updateHero(); await new Promise(res=>setTimeout(res, 4000)); } })();
+    });
+
+    // Tam ekran geçiş/animasyonlar
+    const sections = document.querySelectorAll(".scroll-section");
+    let current = 0, lock = false;
+
+    function setActive(i){
+      sections.forEach((s,idx)=>{ s.classList.remove("active","previous"); if(idx<i) s.classList.add("previous"); });
+      sections[i].classList.add("active");
+      const dotsWrap = document.querySelector('.dots-wrap');
+      if(dotsWrap) {
+        dotsWrap.querySelectorAll('.dot').forEach((dot,idx) => dot.classList.toggle('active', idx === i));
+      }
+      updateArrows(i);
+    }
+
+    function updateArrows(index) {
+      const prevArrow = document.getElementById('prev-arrow');
+      const nextArrow = document.getElementById('next-arrow');
+      
+      if (prevArrow && nextArrow) {
+        // İlk slaytta sadece aşağı ok
+        if (index === 0) {
+          prevArrow.style.display = 'none';
+          nextArrow.style.display = 'block';
+        }
+        // Son slaytta sadece yukarı ok
+        else if (index === sections.length - 1) {
+          prevArrow.style.display = 'block';
+          nextArrow.style.display = 'none';
+        }
+        // Diğer slaylarda her iki ok da
+        else {
+          prevArrow.style.display = 'block';
+          nextArrow.style.display = 'block';
+        }
+      }
+    }
+    window.scrollToSection = (i)=>{
+      if(i<0||i>=sections.length||lock||i===current) return;
+      lock = true; setActive(i); current=i; setTimeout(()=>lock=false,1100);
+    };
+    if(sections.length){ 
+      sections[0].classList.add("active"); 
+      handleSectionAnimations(); 
+      
+      // Initialize dots
+      const dotsWrap = document.querySelector('.dots-wrap');
+      if(dotsWrap) {
+        sections.forEach((section, i) => {
+          const dot = document.createElement('div');
+          dot.className = `dot ${i === 0 ? 'active' : ''}`;
+          dot.setAttribute('data-tooltip', section.getAttribute('data-title') || `Section ${i+1}`);
+          dot.addEventListener('click', () => scrollToSection(i));
+          dotsWrap.appendChild(dot);
+        });
+      }
+    }
+
+    window.addEventListener("wheel",(e)=>{ if(lock) return; e.deltaY>0?scrollToSection(current+1):scrollToSection(current-1); }, {passive:false});
+    
+    // Keyboard navigation
+    window.addEventListener("keydown", (e) => {
+      if(lock) return;
+      if(e.key === "ArrowDown" || e.key === "PageDown") {
+        e.preventDefault();
+        scrollToSection(current + 1);
+      } else if(e.key === "ArrowUp" || e.key === "PageUp") {
+        e.preventDefault();
+        scrollToSection(current - 1);
+      }
+    });
+    
+    let touchY=0;
+    window.addEventListener("touchstart",(e)=>{ touchY=e.changedTouches[0].screenY; }, {passive:true});
+    window.addEventListener("touchend",(e)=>{ if(lock) return; const d=e.changedTouches[0].screenY - touchY; if(d<-50) scrollToSection(current+1); if(d>50) scrollToSection(current-1); });
+
+    function animateMeters(){
+      document.querySelectorAll('.meter > div').forEach(function(bar){
+        const percent = parseInt(bar.getAttribute('data-percent') || bar.style.width);
+        bar.style.width='0%'; let val=0;
+        const interval=setInterval(function(){ val+=2; if(val>=percent){ val=percent; clearInterval(interval); } bar.style.width=val+'%'; }, 16);
+      });
+    }
+    function handleSectionAnimations(){
+      document.querySelectorAll('.scroll-section').forEach(function(section){
+        if(section.classList.contains('active')){
+          if(section.getAttribute('aria-label')==='Teknolojiler' || section.getAttribute('aria-label')==='Süreç') animateMeters();
+        }
+      });
+    }
+    handleSectionAnimations();
+    const origScrollToSection = window.scrollToSection;
+    window.scrollToSection = function(i){ origScrollToSection(i); setTimeout(handleSectionAnimations, 400); }
+
+    // SSS akordeon
+    document.querySelectorAll(".faq-q").forEach(q=>{
+      q.addEventListener("click", ()=>{ const a=q.parentElement.querySelector(".faq-a"); a.classList.toggle("hidden"); });
+    });
+
+    // Mobil menü
+    const menuBtn = document.getElementById("menu-btn"), mobileMenu=document.getElementById("mobile-menu"), openIcon=document.getElementById("menu-open-icon"), closeIcon=document.getElementById("menu-close-icon");
+    if(menuBtn){ menuBtn.addEventListener("click", ()=>{ mobileMenu.classList.toggle("hidden"); openIcon.classList.toggle("hidden"); closeIcon.classList.toggle("hidden"); }); }
+  </script>
+</body>
+</html>

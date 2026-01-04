@@ -36,10 +36,20 @@ Profesyonel yazılım geliştirici olarak, modern teknolojilerle ölçeklenebili
 
 **Cloud:** AWS • Firebase • Vercel
 
-## GitHub Stats
+## GitHub Metrics
 
-<img src="https://github-readme-stats.vercel.app/api?username=ardcek&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ardcek&layout=compact&theme=default&hide_border=true" alt="Top Languages" height="165"/>
+![Metrics](https://raw.githubusercontent.com/ardcek/ardcek/main/github-metrics.svg)
+
+<details>
+<summary>📊 Detaylı İstatistikler</summary>
+
+<img src="https://github-readme-stats.vercel.app/api?username=ardcek&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" width="495"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ardcek&layout=compact&theme=default&hide_border=true&langs_count=8" alt="Top Languages" width="495"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ardcek&theme=default&hide_border=true" alt="GitHub Streak" width="495"/>
+
+</details>
 
 ## Projeler
 
